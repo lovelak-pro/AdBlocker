@@ -24,7 +24,7 @@ Ad Blocker is a simple Chrome extension that modifies the current tab's URL to h
 
 ## Screenshots
 
-![App Screenshot](assets/Screenshot%202025-06-03%20140607.png)
+![App Screenshot](assets/Screenshot-v0.0.1.png)
 
 ## Project Structure
 
