@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>URL Modifier</title>
+    <title>Ad Blocker</title>
     <style>
       body {
         width: 200px;
@@ -30,8 +30,10 @@
         background-color: #30bdff;
         box-shadow: 0 0 20px #1db2f7;
         color: white;
+        cursor: pointer;
       }
       .crid {
+        cursor: default;
         position: absolute;
         font-size: 15px;
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -42,14 +44,42 @@
       .crid a {
         color: #1db2f7;
       }
+      .whats-new {
+        position: absolute;
+        width: 13px;
+        height: 30px;
+        top: -45px;
+        right: 0;
+        font-size: 20px;
+        border: 1px solid #ccc;
+        padding: 0px 10px;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: 0.2s ease-in-out;
+      }
+      .whats-new:hover {
+        top: -40px;
+        padding-top: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        box-shadow: 0 0 5px #1db2f7;
+        background-color: #1db2f7;
+        border-radius: 5px;
+        width: 110px;
+        height: 25px;
+        color: white;
+      }
     </style>
   </head>
   <body>
+    <p class="whats-new">&Xi; Version 0.0.2</p>
     <p class="header">Ad Blocker</p>
     <button id="modify-url">Remove Ad</button>
     <p class="crid">
       Made By <a href="http://lovelak.rf.gd" target="_blank">Lovelak</a>
     </p>
+    <br />
+
     <script src="popup.js"></script>
   </body>
 </html>

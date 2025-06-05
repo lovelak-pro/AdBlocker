@@ -18,5 +18,11 @@
     "16": "assets/icons8-adblock-16.png",
     "32": "assets/icons8-adblock-3d-fluency-32.png",
     "96": "assets/icons8-adblock-3d-fluency-96.png"
-  }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ]
 }
