@@ -2,7 +2,7 @@
 
 I made this simple Ad Blocker Chrome extension that modifies the current tab's URL to help bypass ads on YouTube by altering the domain. It features a popup interface with a single button to trigger the URL modification.
 
-## What's New (v1.1)
+## What's New (v0.1.1)
 
 - **Continue Playback:** When modifying the YouTube URL, the extension now preserves your current video position, so playback continues from where you left off.
 - **Improved Experience:** No more restarting videos when removing ads!
