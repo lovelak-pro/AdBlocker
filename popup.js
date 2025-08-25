@@ -1,3 +1,14 @@
+const modes = document.getElementById("mode");
+
+modes.addEventListener("click", function () {
+  if (modes.innerHTML === "Light") {
+    modes.innerHTML = "Dark";
+    document.body.classList.toggle("dark-mode");
+  } else {
+    modes.innerHTML = "Light";
+    document.body.classList.toggle("dark-mode");
+  }
+});
 document.getElementById("modify-url").addEventListener("click", function () {
   chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
     var tab = tabs[0];
